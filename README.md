@@ -25,7 +25,6 @@ In this phase, we perform an initial exploration of the dataset and preprocess t
 ## Model Building and Evaluation
 1. Train-Validation-Test Split:
    - Splitting the dataset into train, validation, and test sets
-   - Stratified sampling to preserve the class distribution
 
 2. Scaling the Data:
    - Standard scaling of numerical columns to ensure consistency
@@ -73,10 +72,11 @@ After training and evaluating the models, we analyze the results and metrics obt
 - Average Precision Score: The average precision achieved across all recall levels, which provides a single-value summary of the precision-recall curve.
 
     We achieved,
-                Accuracy ≃ 90%
-                False Negatives ≃ 6%
-                False Positives ≃ 3%
-                ROC-AUC ≃ 82%
+  
+          Accuracy ≃ 90%
+          ROC-AUC Score ≃ 0.82
+          False Negatives ≃ 6%
+          False Positives ≃ 3%
 
 ## Usage
 
@@ -86,7 +86,7 @@ To use this project, follow these steps:
 
 2. Install the dependencies: Install the required libraries and dependencies mentioned in the `requirements.txt` file.
 
-3. Run the notebook: Open the Jupyter notebook `term_deposit_prediction.ipynb` and run each cell sequentially.
+3. Run the notebook: Open the Jupyter notebook `Term Deposit Subscription Prediction.ipynb` and run each cell sequentially. 
 
 4. Explore the code: Examine the code and comments to understand the data preprocessing, model training, and evaluation steps.
 
